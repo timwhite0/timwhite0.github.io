@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tim White</title>
-    <link>https://timwhite0.github.io/</link>
-      <atom:link href="https://timwhite0.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tim White</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <title>simulation | Tim White</title>
+    <link>https://timwhite0.github.io/tag/simulation/</link>
+      <atom:link href="https://timwhite0.github.io/tag/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>simulation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png</url>
-      <title>Tim White</title>
-      <link>https://timwhite0.github.io/</link>
+      <title>simulation</title>
+      <link>https://timwhite0.github.io/tag/simulation/</link>
     </image>
-    
-    <item>
-      <title>Estimating the lifetime risk of a false positive screening test result</title>
-      <link>https://timwhite0.github.io/talk/estimating-the-lifetime-risk-of-a-false-positive-screening-test-result/</link>
-      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://timwhite0.github.io/talk/estimating-the-lifetime-risk-of-a-false-positive-screening-test-result/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Estimating the lifetime risk of a false positive screening test result</title>
-      <link>https://timwhite0.github.io/publication/white_algeri_2022/</link>
-      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://timwhite0.github.io/publication/white_algeri_2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Household structure and older persons</title>
-      <link>https://timwhite0.github.io/publication/unfpa_2022/</link>
-      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://timwhite0.github.io/publication/unfpa_2022/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>A resampling technique for massive data in settings of bootstrap inconsistency</title>
@@ -47,14 +23,6 @@
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://timwhite0.github.io/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://timwhite0.github.io/admin/config.yml</guid>
-      <description></description>
     </item>
     
   </channel>
