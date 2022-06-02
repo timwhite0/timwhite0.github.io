@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Tim White</title>
-    <link>https://timwhite0.github.io/publication/</link>
-      <atom:link href="https://timwhite0.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>false positive | Tim White</title>
+    <link>https://timwhite0.github.io/tag/false-positive/</link>
+      <atom:link href="https://timwhite0.github.io/tag/false-positive/index.xml" rel="self" type="application/rss+xml" />
+    <description>false positive</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
-      <link>https://timwhite0.github.io/publication/</link>
+      <title>false positive</title>
+      <link>https://timwhite0.github.io/tag/false-positive/</link>
     </image>
     
     <item>
