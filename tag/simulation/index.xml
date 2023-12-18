@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simulation | Tim White</title>
+    <link>https://timwhite0.github.io/tag/simulation/</link>
+      <atom:link href="https://timwhite0.github.io/tag/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>simulation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png</url>
+      <title>simulation</title>
+      <link>https://timwhite0.github.io/tag/simulation/</link>
+    </image>
+    
+    <item>
+      <title>A resampling technique for massive data in settings of bootstrap inconsistency</title>
+      <link>https://timwhite0.github.io/project/honors_thesis/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/honors_thesis/</guid>
+      <description>&lt;p&gt;As massive data sets become more and more prevalent across the sciences, there is a growing need for accurate and computationally efficient methods of estimator quality assessment that can be applied under a variety of data-generating conditions. The nonparametric bootstrap is a straightforward and accurate method for approximating the sampling distribution of an estimator, but it becomes computationally unwieldy for large samples. Kleiner et al.’s bag of little bootstraps (BLB) provides a computationally efficient alternative to the bootstrap, but it is not expected to perform well in settings where the bootstrap is inconsistent. In this paper, we introduce the bag of little m out of n bootstraps (BLmnB), a modification of the BLB that aims to extend the method’s applicability to cases of bootstrap inconsistency. We formalize the BLmnB algorithm and compare its performance against that of the bootstrap and the BLB in two well-documented settings of bootstrap failure. Our results indicate that while the BLmnB is capable of outperforming the other two methods in one of these settings, it performs no better than the BLB in the other. In both settings, we find that the approximation accuracy of the BLmnB is sensitive to the choice of the resample size m. While these findings suggest that the BLmnB is a promising alternative to the BLB in at least some data- generating scenarios, further investigation is necessary in order to develop the underlying theory of the method and study its accuracy and runtime in other settings of bootstrap inconsistency.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

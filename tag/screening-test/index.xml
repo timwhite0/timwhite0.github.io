@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>screening test | Tim White</title>
+    <link>https://timwhite0.github.io/tag/screening-test/</link>
+      <atom:link href="https://timwhite0.github.io/tag/screening-test/index.xml" rel="self" type="application/rss+xml" />
+    <description>screening test</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Aug 2022 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png</url>
+      <title>screening test</title>
+      <link>https://timwhite0.github.io/tag/screening-test/</link>
+    </image>
+    
+    <item>
+      <title>Estimating the lifetime risk of a false positive screening test result</title>
+      <link>https://timwhite0.github.io/talk/estimating-the-lifetime-risk-of-a-false-positive-screening-test-result/</link>
+      <pubDate>Mon, 08 Aug 2022 14:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/talk/estimating-the-lifetime-risk-of-a-false-positive-screening-test-result/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating the lifetime risk of a false positive screening test result</title>
+      <link>https://timwhite0.github.io/publication/white_algeri_2022/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/publication/white_algeri_2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

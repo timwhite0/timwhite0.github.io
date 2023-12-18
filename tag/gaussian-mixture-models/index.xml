@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaussian mixture models | Tim White</title>
+    <link>https://timwhite0.github.io/tag/gaussian-mixture-models/</link>
+      <atom:link href="https://timwhite0.github.io/tag/gaussian-mixture-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gaussian mixture models</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png</url>
+      <title>Gaussian mixture models</title>
+      <link>https://timwhite0.github.io/tag/gaussian-mixture-models/</link>
+    </image>
+    
+    <item>
+      <title>Efficient initialization of the EM algorithm for Gaussian mixture models</title>
+      <link>https://timwhite0.github.io/project/initializing_em/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/initializing_em/</guid>
+      <description>&lt;p&gt;The expectation-maximization (EM) algorithm is a convenient method of maximum likelihood estimation for Gaussian mixture models, but it is not guaranteed to converge to the global maximum of the (log-)likelihood function for Gaussian mixtures of an arbitrary number of components. As such, the success of the algorithm often hinges on the initialization of the parameters $\boldsymbol{\pi}$, $\boldsymbol{\mu}$, and $\boldsymbol{\Sigma}$. Many different initialization strategies have been proposed in the literature — some are based on random initialization, others involve data-driven methods like singular value decomposition or K-means clustering, and a handful are highly sophisticated procedures that require considerable computational effort. Perhaps unsurprisingly, no single initialization scheme has been shown to consistently outperform the others across all Gaussian mixture model settings. In this report, we study a relatively general model setting with a moderate number of mixture components where the parameters $\boldsymbol{\pi}$, $\boldsymbol{\mu}$, and $\boldsymbol{\Sigma}$ are treated as unknown. We consider four computationally feasible initialization methods, and we use simulation to assess the impact of these methods on the performance of the EM algorithm. In our simulation studies, we directly quantify the accuracy of the initial parameter values and characterize the post-initialization convergence behavior of the EM algorithm, and in doing so we build on earlier studies that focused primarily on the accuracy of the final EM estimates. Our results demonstrate that data-driven initialization strategies like svdEM (which uses singular value decomposition) and kmEM (which uses K-means clustering) tend to be more accurate and efficient than random initialization schemes, and in many settings they provide a reasonable alternative to more sophisticated but computationally intensive techniques. However, all of these initialization strategies tend to struggle when there is substantial overlap between the mixture components, especially when the dimension of the data is high. The optimal strategy for initializing $\boldsymbol{\pi}$, $\boldsymbol{\mu}$, and $\boldsymbol{\Sigma}$ in this setting remains an open question.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

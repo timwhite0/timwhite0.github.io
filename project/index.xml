@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Tim White</title>
+    <link>https://timwhite0.github.io/project/</link>
+      <atom:link href="https://timwhite0.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://timwhite0.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Efficient initialization of the EM algorithm for Gaussian mixture models</title>
+      <link>https://timwhite0.github.io/project/initializing_em/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/initializing_em/</guid>
+      <description>&lt;p&gt;The expectation-maximization (EM) algorithm is a convenient method of maximum likelihood estimation for Gaussian mixture models, but it is not guaranteed to converge to the global maximum of the (log-)likelihood function for Gaussian mixtures of an arbitrary number of components. As such, the success of the algorithm often hinges on the initialization of the parameters $\boldsymbol{\pi}$, $\boldsymbol{\mu}$, and $\boldsymbol{\Sigma}$. Many different initialization strategies have been proposed in the literature — some are based on random initialization, others involve data-driven methods like singular value decomposition or K-means clustering, and a handful are highly sophisticated procedures that require considerable computational effort. Perhaps unsurprisingly, no single initialization scheme has been shown to consistently outperform the others across all Gaussian mixture model settings. In this report, we study a relatively general model setting with a moderate number of mixture components where the parameters $\boldsymbol{\pi}$, $\boldsymbol{\mu}$, and $\boldsymbol{\Sigma}$ are treated as unknown. We consider four computationally feasible initialization methods, and we use simulation to assess the impact of these methods on the performance of the EM algorithm. In our simulation studies, we directly quantify the accuracy of the initial parameter values and characterize the post-initialization convergence behavior of the EM algorithm, and in doing so we build on earlier studies that focused primarily on the accuracy of the final EM estimates. Our results demonstrate that data-driven initialization strategies like svdEM (which uses singular value decomposition) and kmEM (which uses K-means clustering) tend to be more accurate and efficient than random initialization schemes, and in many settings they provide a reasonable alternative to more sophisticated but computationally intensive techniques. However, all of these initialization strategies tend to struggle when there is substantial overlap between the mixture components, especially when the dimension of the data is high. The optimal strategy for initializing $\boldsymbol{\pi}$, $\boldsymbol{\mu}$, and $\boldsymbol{\Sigma}$ in this setting remains an open question.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A resampling technique for massive data in settings of bootstrap inconsistency</title>
+      <link>https://timwhite0.github.io/project/honors_thesis/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/honors_thesis/</guid>
+      <description>&lt;p&gt;As massive data sets become more and more prevalent across the sciences, there is a growing need for accurate and computationally efficient methods of estimator quality assessment that can be applied under a variety of data-generating conditions. The nonparametric bootstrap is a straightforward and accurate method for approximating the sampling distribution of an estimator, but it becomes computationally unwieldy for large samples. Kleiner et al.’s bag of little bootstraps (BLB) provides a computationally efficient alternative to the bootstrap, but it is not expected to perform well in settings where the bootstrap is inconsistent. In this paper, we introduce the bag of little m out of n bootstraps (BLmnB), a modification of the BLB that aims to extend the method’s applicability to cases of bootstrap inconsistency. We formalize the BLmnB algorithm and compare its performance against that of the bootstrap and the BLB in two well-documented settings of bootstrap failure. Our results indicate that while the BLmnB is capable of outperforming the other two methods in one of these settings, it performs no better than the BLB in the other. In both settings, we find that the approximation accuracy of the BLmnB is sensitive to the choice of the resample size m. While these findings suggest that the BLmnB is a promising alternative to the BLB in at least some data- generating scenarios, further investigation is necessary in order to develop the underlying theory of the method and study its accuracy and runtime in other settings of bootstrap inconsistency.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
