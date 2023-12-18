@@ -29,6 +29,22 @@
     </item>
     
     <item>
+      <title>Forecasting the weather with deep learning</title>
+      <link>https://timwhite0.github.io/project/stats604weather/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/stats604weather/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Did machine learning reveal symbolism, emotionality, and imaginativeness as primary predictors of creativity?</title>
+      <link>https://timwhite0.github.io/project/stats604creativity/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/stats604creativity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Efficient initialization of the EM algorithm for Gaussian mixture models</title>
       <link>https://timwhite0.github.io/project/initializing_em/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
