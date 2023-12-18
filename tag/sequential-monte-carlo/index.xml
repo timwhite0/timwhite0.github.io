@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Tim White</title>
-    <link>https://timwhite0.github.io/publication/</link>
-      <atom:link href="https://timwhite0.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>sequential Monte Carlo | Tim White</title>
+    <link>https://timwhite0.github.io/tag/sequential-monte-carlo/</link>
+      <atom:link href="https://timwhite0.github.io/tag/sequential-monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+    <description>sequential Monte Carlo</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
-      <link>https://timwhite0.github.io/publication/</link>
+      <title>sequential Monte Carlo</title>
+      <link>https://timwhite0.github.io/tag/sequential-monte-carlo/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://timwhite0.github.io/publication/white_regier_2023/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://timwhite0.github.io/publication/white_regier_2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Estimating the lifetime risk of a false positive screening test result</title>
-      <link>https://timwhite0.github.io/publication/white_algeri_2022/</link>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://timwhite0.github.io/publication/white_algeri_2022/</guid>
       <description></description>
     </item>
     
