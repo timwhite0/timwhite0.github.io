@@ -79,6 +79,21 @@
     </item>
     
     <item>
+      <title>MLBdash</title>
+      <link>https://timwhite0.github.io/project/mlbdash/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/mlbdash/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twhit.shinyapps.io/MLBdash/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MLBdash&lt;/a&gt; is an R Shiny dashboard with team statistics and projected standings for the 2023 MLB season.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first tab lists each team&amp;rsquo;s projected wins and losses, which are the average of the projections from &lt;a href=&#34;https://www.baseball-reference.com/leagues/majors/2022-playoff-odds.shtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baseball Reference&lt;/a&gt; and &lt;a href=&#34;https://www.baseballprospectus.com/standings/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baseball Prospectus&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The second tab contains a plot of OPS+ (offensive performance) versus ERA+ (pitching performance) and assigns teams to tiers by partitioning the coordinate space of this plot.&lt;/li&gt;
+&lt;li&gt;The third tab presents the information from the first two tabs for every season since 1998, which was the first season in which the MLB expanded to 30 teams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MLBdash will be updated for the 2024 season in April of 2024.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A resampling technique for massive data in settings of bootstrap inconsistency</title>
       <link>https://timwhite0.github.io/project/umn_honors_thesis/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
