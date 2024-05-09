@@ -279,12 +279,12 @@
 
   
 
-<meta name="description" content="STATS 604 project \#4, University of Michigan. With Jaylin Lowe and Gabriel Patron." />
+<meta name="description" content="BIOSTAT 882 final project, University of Michigan" />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://timwhite0.github.io/project/stats604weather/" />
-<link rel="canonical" href="https://timwhite0.github.io/project/stats604weather/" />
+<link rel="alternate" hreflang="en-us" href="https://timwhite0.github.io/project/biostat882project/" />
+<link rel="canonical" href="https://timwhite0.github.io/project/biostat882project/" />
 
 
 
@@ -323,18 +323,18 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Tim White" />
-<meta property="og:url" content="https://timwhite0.github.io/project/stats604weather/" />
-<meta property="og:title" content="Forecasting the weather with deep learning | Tim White" />
-<meta property="og:description" content="STATS 604 project \#4, University of Michigan. With Jaylin Lowe and Gabriel Patron." /><meta property="og:image" content="https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://timwhite0.github.io/project/biostat882project/" />
+<meta property="og:title" content="Sequential Monte Carlo for probabilistic cell detection in microscopy images | Tim White" />
+<meta property="og:description" content="BIOSTAT 882 final project, University of Michigan" /><meta property="og:image" content="https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2023-12-04T00:00:00&#43;00:00"
+      content="2024-04-30T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2023-12-04T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-04-30T00:00:00&#43;00:00">
   
 
 
@@ -358,12 +358,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://timwhite0.github.io/project/stats604weather/"
+    "@id": "https://timwhite0.github.io/project/biostat882project/"
   },
-  "headline": "Forecasting the weather with deep learning",
+  "headline": "Sequential Monte Carlo for probabilistic cell detection in microscopy images",
   
-  "datePublished": "2023-12-04T00:00:00Z",
-  "dateModified": "2023-12-04T00:00:00Z",
+  "datePublished": "2024-04-30T00:00:00Z",
+  "dateModified": "2024-04-30T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -378,7 +378,7 @@
       "url": "https://timwhite0.github.io/media/icon_hudd9b251b05fa576c42ec1aa19b8230a1_38775_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "STATS 604 project \\#4, University of Michigan. With Jaylin Lowe and Gabriel Patron."
+  "description": "BIOSTAT 882 final project, University of Michigan"
 }
 </script>
 
@@ -400,7 +400,7 @@
 
 
   
-  <title>Forecasting the weather with deep learning | Tim White</title>
+  <title>Sequential Monte Carlo for probabilistic cell detection in microscopy images | Tim White</title>
 
   
   
@@ -420,7 +420,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9a18888a5ddb13f130b3ab31485d3045" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="0276f9725806b24438b123a1f880ec31" >
 
   
   
@@ -827,7 +827,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Forecasting the weather with deep learning</h1>
+  <h1>Sequential Monte Carlo for probabilistic cell detection in microscopy images</h1>
 
   
 
@@ -846,7 +846,7 @@
     
       
     
-    Dec 4, 2023
+    Apr 30, 2024
   </span>
   
 
@@ -884,7 +884,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="/project/stats604weather/stats604weather.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/project/biostat882project/biostat882project.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -895,7 +895,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/gapatron/stats604_project04" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/timwhite0/smc_object_detection/tree/cells" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -905,14 +905,6 @@
 
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="/project/stats604weather/stats604weather_slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
 
 
 
@@ -931,7 +923,10 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <p>Cell detection is an essential task in microscopy image analysis, as accurate cell segmentation maps are a prerequisite for downstream analysis by biomedical practitioners and researchers. This task was historically performed through manual annotation, but the advent of high-throughput imaging techniques in recent decades has prompted a shift away from this labor-intensive approach and toward automated detection algorithms. Software pipelines such as \texttt{CellProfiler} and \texttt{ImageJ} are commonly used for routine segmentation due to their relatively simple interfaces, but deep learning methods are the current state of the art among cell detection algorithms, as architectures based on convolutional neural networks (CNNs) have proven to excel at characterizing cells and tissues in microscopy images. However, successful training of these deep networks requires a high volume of manually segmented example images, and their applicability to specific cell or tissue types is limited to those that are represented in the training set. In addition, these models are not well suited for analyzing images that depict dense regions of clustered or overlapping cells, as the point estimates they produce do not capture the inherent ambiguity of cell positions and properties in crowded images.</p>
+<p>The Bayesian paradigm is a potentially convenient alternative in this setting because it provides calibrated uncertainty estimates for ambiguous images and enables biomedical experts to incorporate prior information based on their domain knowledge. A typical Bayesian approach to this task is to treat the pixel intensities of an image as observed random variables $x$ and the properties of the imaged objects as latent random variables $z$, and to characterize the posterior distribution $p(z \padvert x)$ via Monte Carlo samples or a variational approximation. This is a challenging environment for inference because it is inherently transdimensional — the number of cells in a microscopy image is generally not known a priori, and hence the number of unknown model parameters to infer is itself unknown. As such, most previous attempts to tackle cell detection through a Bayesian lens have relied on transdimensional sampling algorithms. Perhaps the most prominent example is the work of Al-Awadhi et al., who used birth-death Markov chain Monte Carlo (MCMC). However, the transdimensional proposals required by these algorithms are notoriously difficult to design and may result in slow mixing if they are designed poorly.</p>
+<p>Motivated by the shortcomings of deterministic software pipelines, CNNs, and transdimensional MCMC algorithms, we propose a novel approach to probabilistic cell detection for crowded fluorescence microscopy images. Our approach, which is based on likelihood-tempered sequential Monte Carlo (SMC) samplers, leverages the parallel processing capabilities of modern GPU computing, and it does not require the user to design, or subsequently sample from, transdimensional proposals. The remainder of this report is guided by the following objectives: (1) Determine the necessary components of a realistic Bayesian model of cells in microscopy images and design an efficient SMC sampler to target the posterior distribution induced by this model; (2) assess the statistical and computational performance of our SMC sampler in a simulation study involving synthetic images generated from a simplified version of our Bayesian model; and (3) compare the accuracy and calibration of our sampler&rsquo;s posterior estimates for several relevant cell detection metrics to a popular open-source cell segmentation pipeline based on thresholding and the watershed algorithm.</p>
+
     </div>
 
     
@@ -957,7 +952,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fstats604weather%2F&amp;text=Forecasting&#43;the&#43;weather&#43;with&#43;deep&#43;learning" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fbiostat882project%2F&amp;text=Sequential&#43;Monte&#43;Carlo&#43;for&#43;probabilistic&#43;cell&#43;detection&#43;in&#43;microscopy&#43;images" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -974,7 +969,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fstats604weather%2F&amp;t=Forecasting&#43;the&#43;weather&#43;with&#43;deep&#43;learning" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fbiostat882project%2F&amp;t=Sequential&#43;Monte&#43;Carlo&#43;for&#43;probabilistic&#43;cell&#43;detection&#43;in&#43;microscopy&#43;images" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -993,7 +988,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Forecasting%20the%20weather%20with%20deep%20learning&amp;body=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fstats604weather%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Sequential%20Monte%20Carlo%20for%20probabilistic%20cell%20detection%20in%20microscopy%20images&amp;body=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fbiostat882project%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1010,7 +1005,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fstats604weather%2F&amp;title=Forecasting&#43;the&#43;weather&#43;with&#43;deep&#43;learning" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fbiostat882project%2F&amp;title=Sequential&#43;Monte&#43;Carlo&#43;for&#43;probabilistic&#43;cell&#43;detection&#43;in&#43;microscopy&#43;images" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1027,7 +1022,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Forecasting&#43;the&#43;weather&#43;with&#43;deep&#43;learning%20https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fstats604weather%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Sequential&#43;Monte&#43;Carlo&#43;for&#43;probabilistic&#43;cell&#43;detection&#43;in&#43;microscopy&#43;images%20https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fbiostat882project%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1044,7 +1039,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fstats604weather%2F&amp;title=Forecasting&#43;the&#43;weather&#43;with&#43;deep&#43;learning" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Ftimwhite0.github.io%2Fproject%2Fbiostat882project%2F&amp;title=Sequential&#43;Monte&#43;Carlo&#43;for&#43;probabilistic&#43;cell&#43;detection&#43;in&#43;microscopy&#43;images" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

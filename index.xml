@@ -13,6 +13,17 @@
     </image>
     
     <item>
+      <title>Sequential Monte Carlo for probabilistic cell detection in microscopy images</title>
+      <link>https://timwhite0.github.io/project/biostat882project/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/biostat882project/</guid>
+      <description>&lt;p&gt;Cell detection is an essential task in microscopy image analysis, as accurate cell segmentation maps are a prerequisite for downstream analysis by biomedical practitioners and researchers. This task was historically performed through manual annotation, but the advent of high-throughput imaging techniques in recent decades has prompted a shift away from this labor-intensive approach and toward automated detection algorithms. Software pipelines such as \texttt{CellProfiler} and \texttt{ImageJ} are commonly used for routine segmentation due to their relatively simple interfaces, but deep learning methods are the current state of the art among cell detection algorithms, as architectures based on convolutional neural networks (CNNs) have proven to excel at characterizing cells and tissues in microscopy images. However, successful training of these deep networks requires a high volume of manually segmented example images, and their applicability to specific cell or tissue types is limited to those that are represented in the training set. In addition, these models are not well suited for analyzing images that depict dense regions of clustered or overlapping cells, as the point estimates they produce do not capture the inherent ambiguity of cell positions and properties in crowded images.&lt;/p&gt;
+&lt;p&gt;The Bayesian paradigm is a potentially convenient alternative in this setting because it provides calibrated uncertainty estimates for ambiguous images and enables biomedical experts to incorporate prior information based on their domain knowledge. A typical Bayesian approach to this task is to treat the pixel intensities of an image as observed random variables $x$ and the properties of the imaged objects as latent random variables $z$, and to characterize the posterior distribution $p(z \padvert x)$ via Monte Carlo samples or a variational approximation. This is a challenging environment for inference because it is inherently transdimensional — the number of cells in a microscopy image is generally not known a priori, and hence the number of unknown model parameters to infer is itself unknown. As such, most previous attempts to tackle cell detection through a Bayesian lens have relied on transdimensional sampling algorithms. Perhaps the most prominent example is the work of Al-Awadhi et al., who used birth-death Markov chain Monte Carlo (MCMC). However, the transdimensional proposals required by these algorithms are notoriously difficult to design and may result in slow mixing if they are designed poorly.&lt;/p&gt;
+&lt;p&gt;Motivated by the shortcomings of deterministic software pipelines, CNNs, and transdimensional MCMC algorithms, we propose a novel approach to probabilistic cell detection for crowded fluorescence microscopy images. Our approach, which is based on likelihood-tempered sequential Monte Carlo (SMC) samplers, leverages the parallel processing capabilities of modern GPU computing, and it does not require the user to design, or subsequently sample from, transdimensional proposals. The remainder of this report is guided by the following objectives: (1) Determine the necessary components of a realistic Bayesian model of cells in microscopy images and design an efficient SMC sampler to target the posterior distribution induced by this model; (2) assess the statistical and computational performance of our SMC sampler in a simulation study involving synthetic images generated from a simplified version of our Bayesian model; and (3) compare the accuracy and calibration of our sampler&amp;rsquo;s posterior estimates for several relevant cell detection metrics to a popular open-source cell segmentation pipeline based on thresholding and the watershed algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sequential Monte Carlo for detecting and deblending objects in astronomical images</title>
       <link>https://timwhite0.github.io/talk/sequential-monte-carlo-for-detecting-and-deblending-objects-in-astronomical-images/</link>
       <pubDate>Fri, 15 Dec 2023 08:00:00 +0000</pubDate>
@@ -81,15 +92,6 @@
 &lt;li&gt;The third tab presents the information from the first two tabs for every season since 1998, which was the first season in which the MLB expanded to 30 teams.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;MLBdash will be updated for the 2024 season in April of 2024.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A resampling technique for massive data in settings of bootstrap inconsistency</title>
-      <link>https://timwhite0.github.io/project/umn_honors_thesis/</link>
-      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://timwhite0.github.io/project/umn_honors_thesis/</guid>
-      <description>&lt;p&gt;As massive data sets become more and more prevalent across the sciences, there is a growing need for accurate and computationally efficient methods of estimator quality assessment that can be applied under a variety of data-generating conditions. The nonparametric bootstrap is a straightforward and accurate method for approximating the sampling distribution of an estimator, but it becomes computationally unwieldy for large samples. Kleiner et al.’s bag of little bootstraps (BLB) provides a computationally efficient alternative to the bootstrap, but it is not expected to perform well in settings where the bootstrap is inconsistent. In this paper, we introduce the bag of little m out of n bootstraps (BLmnB), a modification of the BLB that aims to extend the method’s applicability to cases of bootstrap inconsistency. We formalize the BLmnB algorithm and compare its performance against that of the bootstrap and the BLB in two well-documented settings of bootstrap failure. Our results indicate that while the BLmnB is capable of outperforming the other two methods in one of these settings, it performs no better than the BLB in the other. In both settings, we find that the approximation accuracy of the BLmnB is sensitive to the choice of the resample size m. While these findings suggest that the BLmnB is a promising alternative to the BLB in at least some data- generating scenarios, further investigation is necessary in order to develop the underlying theory of the method and study its accuracy and runtime in other settings of bootstrap inconsistency.&lt;/p&gt;
 </description>
     </item>
     
