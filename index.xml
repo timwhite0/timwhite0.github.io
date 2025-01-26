@@ -61,7 +61,9 @@
       <link>https://timwhite0.github.io/project/stats604weather/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://timwhite0.github.io/project/stats604weather/</guid>
-      <description></description>
+      <description>&lt;p&gt;Weather prediction is a notoriously challenging task due to the uncertainty inherent in dynamic meteorological systems. It is not uncommon for short-term forecasts of temperature, precipitation, and other conditions to be off the mark — these errors are a nuisance for everyday human activity and can negatively impact sectors like aviation and tourism.  Weather forecasts have traditionally been made by using supercomputers to simulate massive physical systems based on complex meteorological equations. This approach is known as numerical weather prediction, and it has been the predominant forecasting method for decades.&lt;/p&gt;
+&lt;p&gt;In recent years, however, meteorologists, computer scientists, and statisticians have discovered that deep neural networks are a powerful tool for producing accurate weather forecasts. As a result, there has been a shift away from numerical weather prediction and toward models based on machine learning. Our focus in this report is on the latter — we train models to predict temperature and precipitation up to four days into the future for 21 cities throughout the United States. Specifically, we produce forecasts of the minimum, average, and maximum daily temperature in these cities, as well as whether it snowed and whether any precipitation occurred. We develop a transparent and reproducible workflow via Git and Docker — our models can be trained (and retrained, if desired) and run on a daily basis to make predictions for the next four days in each city.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -69,7 +71,9 @@
       <link>https://timwhite0.github.io/project/stats604creativity/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://timwhite0.github.io/project/stats604creativity/</guid>
-      <description></description>
+      <description>&lt;p&gt;Creativity is a fundamental but ambiguous concept in the visual arts. It has been demonstrated that there is an association between the perceived creativity of a work of art and its overall quality, but the underlying factors that shape individuals&amp;rsquo; perceptions of creativity are not well-established. This discrepancy is the central focus of &lt;a href=&#34;https://www.nature.com/articles/s41598-023-39865-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a recent article&lt;/a&gt; published in Nature&amp;rsquo;s Scientific Reports, in which Spee et al. attempt to identify the perceived attributes of a work of art — e.g., color, symbolism, emotion — that contribute most heavily to individuals&amp;rsquo; assessments of its creativity.&lt;/p&gt;
+&lt;p&gt;Spee et al. conducted a study in which 78 non-experts were asked to rate 54 paintings according to 17 different attributes, each on a 100-point scale. The participants were also asked to judge the creativity of each painting on the same 100-point scale. The authors trained a random forest regression model to analyze these data, emphasizing that this approach is well-suited for capturing the nonlinear relationships that are thought to exist between creativity and the selected attributes. Their results support this hypothesis of nonlinearity and suggest that symbolism, emotionality, and imaginativeness are the most prominent predictors of creativity in Western paintings. In this report, we evaluate the reproducibility and replicability of Spee et al&amp;rsquo;s work.&lt;/p&gt;
+</description>
     </item>
     
     <item>
